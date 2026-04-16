@@ -311,7 +311,7 @@ VolumeMeter::VolumeMeter(QWidget *parent, obs_source_t *source)
 	magnitudeColor.setRgb(0x00, 0x00, 0x00); // Black
 	majorTickColor.setRgb(0x00, 0x00, 0x00); // Black
 	minorTickColor.setRgb(0x32, 0x32, 0x32); // Dark gray
-	minimumLevel = -60.0;                    // -60 dB
+	minimumLevel = -40.0;                    // dB
 	warningLevel = -20.0;                    // -20 dB
 	errorLevel = -9.0;                       //  -9 dB
 	clipLevel = 0.0;                         //  0 dB
