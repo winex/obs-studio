@@ -15,7 +15,7 @@ namespace {
 constexpr int INDICATOR_THICKNESS = 3;
 constexpr int CLIP_FLASH_DURATION_MS = 1000;
 constexpr int TICK_SIZE = 2;
-constexpr int TICK_DB_INTERVAL = 6;
+constexpr int TICK_DB_INTERVAL = 5;
 
 constexpr const char *TICK_LABEL_TOKEN = "-88";
 constexpr float TICK_LABEL_HEIGHT_SCALE_FACTOR = 0.8f;
